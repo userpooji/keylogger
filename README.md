@@ -1,5 +1,8 @@
-# keylogger
+# Project
 This project is about creating a webpage that downloads keylogger(malicious code) into user's system when user hits download button.The keylogger here sends the keystrokes user typed via gmail. The solution to this is to scan ports which are communicating with smtp server.
+
+# Keylogger
+The keylogger sends keystrokes of victim to the attacker through gmail.
 
 # Keylogger Detector
 Warns the user when a malicious process tries to send data from your machine.
